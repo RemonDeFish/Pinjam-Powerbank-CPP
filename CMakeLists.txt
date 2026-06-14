@@ -16,6 +16,11 @@ qt_add_qml_module(appPinjam_Powerbank
     URI Pinjam_Powerbank
     QML_FILES
         Main.qml
+        SOURCES
+        SOURCES user.h user.cpp
+        SOURCES powerbank.h powerbank.cpp
+        SOURCES loan.h loan.cpp
+        SOURCES loanmanager.h loanmanager.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
